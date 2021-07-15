@@ -1,0 +1,19 @@
+{
+  "name": "comport_haberlesme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "servis.js",
+  "scripts": {
+    "start": "nodemon servis.js"
+  },
+  "author": "Onur Sevinç",
+  "license": "ISC",
+  "dependencies": {
+    "@serialport/parser-readline": "^9.0.7",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12",
+    "serialport": "^9.2.0"
+  }
+}
