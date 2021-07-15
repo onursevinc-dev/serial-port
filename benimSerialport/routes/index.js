@@ -17,6 +17,7 @@ router.post('/', (req, res) => {
     reader.on('data', function (data) {
         console.log('Data:', data, data.toString('utf8'));
     })
+    console.log("-_-");
     // console.log("1");
     // reader.on("data",  (line) => veriAl(JSON.parse(line.toString("utf8"))))
     // let rData = reader.on("data",  (line) => veriAl(JSON.parse(line.toString("utf8"))))
@@ -25,7 +26,8 @@ router.post('/', (req, res) => {
     //     pool
     // })
     res.json({
-        message: req.body.inpData
+        message: req.body.inpData,
+        data: "-_-"
     })
 });
 
